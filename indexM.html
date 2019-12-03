@@ -1,0 +1,64 @@
+<!-- Poniżej masz wstępny szkielet jak ja to widzę. 
+    Podlinkowałam fonty z google fonts i arkusz CSS z kilkoma pierwszymi 
+    linijkami dotyczącymi głównie kolorów i fontów.
+
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="=" IE=edge, chrome=1 " />
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,600&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300&display=swap" rel="stylesheet"> 
+    <title>Weather App</title>
+</head>
+
+<body>
+    <section class="cityChoice">
+        <div class="container">
+            <div>
+                <h1>Weather App</h1>
+            </div>
+            <div class="formBox">
+                <form action="formField">
+	                <input type="text" name="enter a city">
+                </form>
+            </div>    
+            <div class="button">
+                <button id="gb" type="submit">GET WEATHER</button>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="weatherCheck">
+        <div class="secondContainer">
+            <div class="city">
+                <a>Chosen city</a>
+            </div>
+            <div>
+                <img src="icon access path" alt="icon is here">
+            </div>
+            <div class="weatherDes">
+                <p>
+                    Description of wather
+                </p>
+            </div>
+            <div class="degrees">
+                <a>
+                    Degrees value eg. 63°
+                </a>
+            </div>
+            <div class="date">
+                <h2>Current date</h2>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
